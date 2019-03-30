@@ -41,7 +41,7 @@ function formatDetectionResults(skipFailures): string {
 }
 
 function logError(msg) {
-  spinner.stopAndPersist({symbol: chalk.cyan('⠼')});
+  spinner.stopAndPersist({symbol: chalk.cyan("⠼")});
   spinner = ora(chalk.red(msg));
   spinner.fail();
 }
